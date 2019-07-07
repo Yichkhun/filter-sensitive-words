@@ -53,8 +53,6 @@ CTreeNode * CTireTree::insert_word_to_tire(CTreeNode * aparent, const std::strin
 	std::vector<std::string>	_vec;
 	CTreeNode * _parent = aparent;
 	msgop::split_utf8(awords, _vec);
-	
-	std::cout<<"size="<<_vec.size()<<std::endl;
 
 	for(auto i = 0; i < _vec.size(); i++){
 		std::string & _word = _vec[i];
