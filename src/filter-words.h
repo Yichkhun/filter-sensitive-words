@@ -20,8 +20,8 @@ public:
 
 private:
 	std::vector<std::string>					m_words_vec;	//cache sensitive words
-	bool										m_res;			//make tire tree res
-	CTireTree									m_tree;			//tire tree
+	bool								m_res;		//make tire tree res
+	CTireTree							m_tree;		//tire tree
 };
 
 #endif //__FILTER_WORDS_H__
