@@ -18,7 +18,7 @@ public:
 	CTreeNode * find_tree_node(std::string anode_val);	
 	
 public:
-	bool													m_end;
+	bool									m_end;
 	std::unordered_map<std::string, CTreeNode*>				m_tree;
 };
 
